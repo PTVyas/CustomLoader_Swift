@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B5F2E3D6AB57AF3BF819B84 /* Pods_CustomLoader_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26E62A0A62BBA5880DB2C3F /* Pods_CustomLoader_Swift.framework */; };
+		9F1FD4A1209ACF7400939D58 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FD4A0209ACF7400939D58 /* confetti.json */; };
+		9F1FD4A7209AD54400939D58 /* heartbutton.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F1FD4A6209AD54400939D58 /* heartbutton.json */; };
 		9F8E73BB20944825009DF53F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E73BA20944825009DF53F /* AppDelegate.swift */; };
 		9F8E73BD20944825009DF53F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E73BC20944825009DF53F /* ViewController.swift */; };
 		9F8E73C020944825009DF53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E73BE20944825009DF53F /* Main.storyboard */; };
 		9F8E73C320944825009DF53F /* CustomLoader_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E73C120944825009DF53F /* CustomLoader_Swift.xcdatamodeld */; };
 		9F8E73C520944825009DF53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E73C420944825009DF53F /* Assets.xcassets */; };
 		9F8E73C820944825009DF53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E73C620944825009DF53F /* LaunchScreen.storyboard */; };
+		9F8E73D120944843009DF53F /* LoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E73D020944843009DF53F /* LoaderVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1FD4A0209ACF7400939D58 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		9F1FD4A6209AD54400939D58 /* heartbutton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heartbutton.json; sourceTree = "<group>"; };
 		9F8E73B720944825009DF53F /* CustomLoader_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLoader_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8E73BA20944825009DF53F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F8E73BC20944825009DF53F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		9F8E73C420944825009DF53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8E73C720944825009DF53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F8E73C920944825009DF53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8E73D020944843009DF53F /* LoaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderVC.swift; sourceTree = "<group>"; };
+		B59FEA18271CCBED04FA8AE5 /* Pods-CustomLoader_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoader_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomLoader_Swift/Pods-CustomLoader_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		CD2324C08849F8851B89B9C0 /* Pods-CustomLoader_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLoader_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomLoader_Swift/Pods-CustomLoader_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E26E62A0A62BBA5880DB2C3F /* Pods_CustomLoader_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomLoader_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5F2E3D6AB57AF3BF819B84 /* Pods_CustomLoader_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		561425E7BBA1FDE2E1BB2194 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD2324C08849F8851B89B9C0 /* Pods-CustomLoader_Swift.debug.xcconfig */,
+				B59FEA18271CCBED04FA8AE5 /* Pods-CustomLoader_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F1FD49B209AC4AA00939D58 /* LottiesAnimationFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9F1FD4A6209AD54400939D58 /* heartbutton.json */,
+				9F1FD4A0209ACF7400939D58 /* confetti.json */,
+			);
+			path = LottiesAnimationFiles;
+			sourceTree = "<group>";
+		};
 		9F8E73AE20944825009DF53F = {
 			isa = PBXGroup;
 			children = (
 				9F8E73B920944825009DF53F /* CustomLoader_Swift */,
 				9F8E73B820944825009DF53F /* Products */,
+				561425E7BBA1FDE2E1BB2194 /* Pods */,
+				A52E3B7A85A00C88A953C075 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +87,9 @@
 		9F8E73B920944825009DF53F /* CustomLoader_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				9F1FD49B209AC4AA00939D58 /* LottiesAnimationFiles */,
+				9FD255592099CD9200B0E016 /* ViewController */,
 				9F8E73BA20944825009DF53F /* AppDelegate.swift */,
-				9F8E73BC20944825009DF53F /* ViewController.swift */,
 				9F8E73BE20944825009DF53F /* Main.storyboard */,
 				9F8E73C420944825009DF53F /* Assets.xcassets */,
 				9F8E73C620944825009DF53F /* LaunchScreen.storyboard */,
@@ -67,6 +99,23 @@
 			path = CustomLoader_Swift;
 			sourceTree = "<group>";
 		};
+		9FD255592099CD9200B0E016 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F8E73BC20944825009DF53F /* ViewController.swift */,
+				9F8E73D020944843009DF53F /* LoaderVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A52E3B7A85A00C88A953C075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E26E62A0A62BBA5880DB2C3F /* Pods_CustomLoader_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F8E73CC20944825009DF53F /* Build configuration list for PBXNativeTarget "CustomLoader_Swift" */;
 			buildPhases = (
+				446AC82D466C43DD18B36118 /* [CP] Check Pods Manifest.lock */,
 				9F8E73B320944825009DF53F /* Sources */,
 				9F8E73B420944825009DF53F /* Frameworks */,
 				9F8E73B520944825009DF53F /* Resources */,
+				FDC691F5E7B422D25A0E0A5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,13 +177,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1FD4A1209ACF7400939D58 /* confetti.json in Resources */,
 				9F8E73C820944825009DF53F /* LaunchScreen.storyboard in Resources */,
 				9F8E73C520944825009DF53F /* Assets.xcassets in Resources */,
+				9F1FD4A7209AD54400939D58 /* heartbutton.json in Resources */,
 				9F8E73C020944825009DF53F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		446AC82D466C43DD18B36118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomLoader_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC691F5E7B422D25A0E0A5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomLoader_Swift/Pods-CustomLoader_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomLoader_Swift/Pods-CustomLoader_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F8E73B320944825009DF53F /* Sources */ = {
@@ -140,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8E73C320944825009DF53F /* CustomLoader_Swift.xcdatamodeld in Sources */,
+				9F8E73D120944843009DF53F /* LoaderVC.swift in Sources */,
 				9F8E73BD20944825009DF53F /* ViewController.swift in Sources */,
 				9F8E73BB20944825009DF53F /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +369,7 @@
 		};
 		9F8E73CD20944825009DF53F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2324C08849F8851B89B9C0 /* Pods-CustomLoader_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +385,7 @@
 		};
 		9F8E73CE20944825009DF53F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59FEA18271CCBED04FA8AE5 /* Pods-CustomLoader_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
